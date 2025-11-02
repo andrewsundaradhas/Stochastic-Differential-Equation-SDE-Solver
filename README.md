@@ -1,11 +1,4 @@
 # Stochastic Differential Equation (SDE) Solver
-
-[![Build Status](https://github.com/yourusername/sde-solver/actions/workflows/ci.yml/badge.svg)](https://github.com/yourusername/sde-solver/actions)
-[![Documentation Status](https://readthedocs.org/projects/sde-solver/badge/?version=latest)](https://sde-solver.readthedocs.io/en/latest/?badge=latest)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python Version](https://img.shields.io/badge/python-3.7%20%7C%203.8%20%7C%203.9%20%7C%203.10-blue)](https://www.python.org/)
-[![C++ Standard](https://img.shields.io/badge/C%2B%2B-17%2F20-blue)](https://en.cppreference.com/)
-
 A high-performance C++ library for solving stochastic differential equations (SDEs) with Python bindings, featuring multiple numerical solvers and financial models.
 
 ## Features
@@ -188,22 +181,3 @@ xdg-open html/index.html  # Linux
 - The number of threads can be controlled using the `OMP_NUM_THREADS` environment variable
 - For large-scale simulations, consider implementing GPU acceleration (future work)
 
-## Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- Inspired by various academic papers and financial mathematics textbooks
-- Uses Google Test for unit testing
-- CMake build system for cross-platform compatibility
